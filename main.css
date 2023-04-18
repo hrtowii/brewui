@@ -1,0 +1,41 @@
+Screen {
+    padding-left: 2;
+    padding-top: 2;
+    padding-right: 2;
+    layout: grid;
+    grid-size: 2 1;
+    grid-columns: 0.4fr 1.6fr;
+}
+
+
+Button {
+    background: 0%;
+    content-align: left top;
+    border-bottom: solid green;
+}
+
+#search {
+    background: 0%;
+    width: 10;
+    border: solid green;
+}
+
+Vertical {
+    height: 100%;
+}
+
+Input {
+    background: 0%;
+    outline: solid green;
+    width: 91%;
+}
+
+SearchBar {
+    dock: top;
+    layout: horizontal;
+}
+
+InfoBox {
+    column-span: 2;
+    border: solid green;
+}
